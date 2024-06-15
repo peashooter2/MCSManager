@@ -8,7 +8,7 @@ module.exports = {
   input: ["./**/*.{ts,vue}", "!**/node_modules/**"],
   output: "./",
   options: {
-    debug: false,
+    debug: true,
     func: false,
     trans: false,
     lngs: LANGUAGES,
