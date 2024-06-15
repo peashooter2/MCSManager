@@ -47,9 +47,9 @@ rd /s /q ".\panel\dist"
 rd /s /q ".\frontend\dist" 
 
 cd "production-code\daemon"
-call npm install --production
+call npm install
 cd "../web"
-call npm install --production
+call npm install
 cd "../../"
 
 echo "------------"
